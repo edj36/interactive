@@ -8,7 +8,7 @@ var detailHeight = parseInt(detail.style("height"), 10);
 
 var selected = 23;
 
-var margin = {top: 25, right: 50, bottom: 10, left: 100};
+var margin = {top: 25, right: 50, bottom: 10, left: 50};
 
 var width = divWidth - margin.left - margin.right;
 var height = divHeight - margin.top - margin.bottom;
@@ -81,7 +81,7 @@ svg.append("text")
 	.attr("x",-margin.left + 32)
 	.attr("y", (height/2) + bumper);
 
-d3.csv("interactive/timeline.csv", function (error, data){
+d3.csv("../timeline.csv", function (error, data){
 
 	data.forEach(function (d){
 		d.beg = parseDate(d.beg)
@@ -262,7 +262,7 @@ var legendXScale = d3.scale.ordinal()
 		((5*legWidth)/7)+5,
 		((6*legWidth)/7)+5]);
 
-d3.csv("interactive/legend.csv", function (error, data){
+d3.csv("../legend.csv", function (error, data){
 
 	var legItems = svg2.selectAll(".rect")
 		.data(data)

@@ -80,17 +80,17 @@ p{
 }
 
 #timeline {
-	width:100%;
+	width:800px;
 	height:200px;
 	float:left;
 }
 #detail {
-	width:100%;
+	width:800px;
 	height:200px;
 	float:left;
 }
 #legend {
-	width:100%;
+	width:800px;
 	height:40px;
 	clear:both;
 }
