@@ -81,7 +81,7 @@ svg.append("text")
 	.attr("x",-margin.left + 32)
 	.attr("y", (height/2) + bumper);
 
-d3.csv("../timeline.csv", function (error, data){
+d3.csv("timeline.csv", function (error, data){
 
 	data.forEach(function (d){
 		d.beg = parseDate(d.beg)
@@ -262,7 +262,7 @@ var legendXScale = d3.scale.ordinal()
 		((5*legWidth)/7)+5,
 		((6*legWidth)/7)+5]);
 
-d3.csv("../legend.csv", function (error, data){
+d3.csv("legend.csv", function (error, data){
 
 	var legItems = svg2.selectAll(".rect")
 		.data(data)
