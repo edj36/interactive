@@ -81,8 +81,9 @@ svg.append("text")
 	.attr("x",-margin.left + 32)
 	.attr("y", (height/2) + bumper);
 
-d3.csv("timeline.csv", function (error, data){
+d3.json("timeline.json", function (data){
 
+	console.log(data);
 	data.forEach(function (d){
 		d.beg = parseDate(d.beg)
 		d.end = parseDate(d.end)
@@ -112,6 +113,7 @@ d3.csv("timeline.csv", function (error, data){
 	  	.attr("text-anchor","middle")
 	  	.text(function (d) { return d.year; });
 
+	/*
 	svg.append("text")
 		.attr("class","axisLabels")
 		.text("pool")
@@ -170,7 +172,7 @@ d3.csv("timeline.csv", function (error, data){
 		.attr("class","axisLabels")
 		.text("fall 16")
 		.attr("x", x(parseDate("23-Aug-16")))
-		.attr("y", y("engineering") - 3);
+		.attr("y", y("engineering") - 3);*/
 
 
 	var lines = svg.selectAll(".rect")
@@ -198,7 +200,14 @@ d3.csv("timeline.csv", function (error, data){
 	var des = desDiv.selectAll(".div")
 		.data(data)
 	  	.enter().append("div")
-	  	.html(function(d) { return d.des; })
+	  	.html(function(d) { 
+	  		var htmlstr = '\
+        		<h3>'+d.company +'</h3> \
+        		<h4>'+ d.position + '</h4> \
+          		<h5>'+ d.span + '</h5> \
+            	<p>'+ d.description +'</p> \
+            	<p class="placeLabel">'+ d.location +'</p>';
+	  		return htmlstr; })
 	  	.attr("class", function(d, i) {
 	  		if (i == selected) {
 	  			return "shown";
