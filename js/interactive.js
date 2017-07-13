@@ -6,7 +6,7 @@ var detail = d3.select("#detail");
 var detailWidth = parseInt(detail.style("width"), 10);
 var detailHeight = parseInt(detail.style("height"), 10);
 
-var selected = 23;
+var selected = 35;
 
 var margin = {top: 25, right: 50, bottom: 10, left: 50};
 
@@ -54,8 +54,10 @@ var y = d3.scale.ordinal()
 
 var axisPoints = [
 	{year:"2014", date:"1-Jan-14"},
-	{year:"15", date:"1-Jan-15"},
-	{year:"16", date:"1-Jan-16"}
+	{year:"2015", date:"1-Jan-15"},
+	{year:"2016", date:"1-Jan-16"},
+	{year:"2017", date:"1-Jan-17"},
+	{year:"2018", date:"1-Jan-18"}
 ];
 
 var textBumper = 5,
@@ -113,68 +115,6 @@ d3.json("timeline.json", function (data){
 	  	.attr("text-anchor","middle")
 	  	.text(function (d) { return d.year; });
 
-	/*
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("pool")
-		.attr("x", x(parseDate("31-May-14")))
-		.attr("y", y("j") - 3);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("fall 14")
-		.attr("x", x(parseDate("23-Aug-14")))
-		.attr("y", y("engineering") - 3);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("spring 15")
-		.attr("x", x(parseDate("23-Jan-15")))
-		.attr("y", y("engineering") - 3);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("startfast")
-		.attr("x", x(parseDate("31-May-15")))
-		.attr("y", y("h") -3);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("pool")
-		.attr("x", x(parseDate("31-May-15")))
-		.attr("y", y("j") -3);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("fall 15")
-		.attr("x", x(parseDate("23-Aug-15")))
-		.attr("y", y("engineering") - 3);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("belle apps")
-		.attr("x", x(parseDate("23-Dec-15")) + 6)
-		.attr("y", y("i") - 3);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("spring 16")
-		.attr("x", x(parseDate("25-Jan-16")))
-		.attr("y", y("engineering") - 3);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("src")
-		.attr("x", x(parseDate("31-May-16")))
-		.attr("y", y("g") + 15);
-
-	svg.append("text")
-		.attr("class","axisLabels")
-		.text("fall 16")
-		.attr("x", x(parseDate("23-Aug-16")))
-		.attr("y", y("engineering") - 3);*/
-
-
 	var lines = svg.selectAll(".rect")
 		.data(data)
 	  	.enter().append("rect")
@@ -183,15 +123,15 @@ d3.json("timeline.json", function (data){
 	    .attr("width", function(d) { return x(d.end)-x(d.beg); })
 	    .attr("y", function(d) { return y(d.cat); })
 	    .attr("height", 7 )
-	    .attr("fill", function(d, i) {
+	    .attr("stroke", function(d, i) {
 	    	if (i==selected) {
 	    		return "#000000";
 	    	}
 	    	else {
-	    		return "" + d.color + "";
+	    		return "#FFFFFF";
 	    	}
 		})
-	    .attr("stroke", "white")
+	    .attr("fill", function(d) {return ""+d.color+"";})
 	    .on("click", function(d, i) {
 	    	selected = i;
 	    	update();
@@ -202,10 +142,11 @@ d3.json("timeline.json", function (data){
 	  	.enter().append("div")
 	  	.html(function(d) { 
 	  		var htmlstr = '\
-        		<h3>'+d.company +'</h3> \
-        		<h4>'+ d.position + '</h4> \
-          		<h5>'+ d.span + '</h5> \
+        		<h3>'+ d.company +'</h3> \
+        		<h4>'+ d.position +'</h4> \
+          		<h5>'+ d.span +'</h5> \
             	<p>'+ d.description +'</p> \
+            	<p>'+ d.skills +'</p> \
             	<p class="placeLabel">'+ d.location +'</p>';
 	  		return htmlstr; })
 	  	.attr("class", function(d, i) {
@@ -220,12 +161,12 @@ d3.json("timeline.json", function (data){
 	var update = function() {
 		lines.transition()
 			.duration(400)
-			.attr("fill",function(d,i){
+			.attr("stroke",function(d,i){
 				if (i === selected){
 					return "#000000";
 				}
 				else{
-					return "" + d.color + "";
+					return "#FFFFFF";
 				}
 			});
 
@@ -262,14 +203,15 @@ var svg2 = d3.select("#legend").append("svg")
     .append("g");
 
 var legendXScale = d3.scale.ordinal()
-	.domain(["CS","ECE", "intro engineering", "liberal studies", "math","science","work"])
+	.domain(["CS","ECE","information science", "intro engineering", "liberal studies", "math","science","work"])
 	.range([5,
-		(legWidth/7)+5,
-		((2*legWidth)/7)+5,
-		((3*legWidth)/7)+5,
-		((4*legWidth)/7)+5,
-		((5*legWidth)/7)+5,
-		((6*legWidth)/7)+5]);
+		(legWidth/8)+5,
+		((2*legWidth)/8)+5,
+		((3*legWidth)/8)+5,
+		((4*legWidth)/8)+5,
+		((5*legWidth)/8)+5,
+		((6*legWidth)/8)+5,
+		((7*legWidth)/8)+5]);
 
 d3.csv("legend.csv", function (error, data){
 
@@ -278,7 +220,7 @@ d3.csv("legend.csv", function (error, data){
 	  	.enter().append("rect")
 	  	.attr("class","rect")
 	    .attr("x", function(d) { return legendXScale(d.label); })
-	    .attr("width", function(d) { return (legWidth/7)-10; })
+	    .attr("width", function(d) { return (legWidth/8)-10; })
 	    .attr("y", function(d) { return 25; })
 	    .attr("height", 7)
 	    .attr("fill", function(d) { return "" + d.color + ""; })
