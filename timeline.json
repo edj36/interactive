@@ -223,7 +223,7 @@
 		"company": "CS 3300",
 		"position": "Data-Driven Web Applications",
 		"span":"Jan '16 - May '16",
-		"description":"This course will introduce students to working with data in the context of modern web applications. These include data representation with relational and non-relational databases, data mining to find patterns and make predictions, and graphical presentation for visualization.",
+		"description":"This course will introduce students to working with data in the context of modern web applications. These include data representation, data mining to find patterns and make predictions, and graphical presentation for visualization.",
 		"location":"CORNELL",
 		"skills":"Javascript, D3"
 	},
@@ -247,7 +247,7 @@
 		"company": "ECE 2200",
 		"position": "Signals and Information",
 		"span":"Jan '16 - May '16",
-		"description":"Introduction to signal processing. Topics include frequency-based representations: Fourier analysis and synthesis; discrete time linear systems: input/output relationships, filtering, spectral response; analog-to-digital and digital-to-analog conversion; continuous time signals and linear time invariant systems: frequency response and continuous-time Fourier transform.",
+		"description":"Introduction to signal processing.",
 		"location":"CORNELL",
 		"skills":"Matlab"
 	},
