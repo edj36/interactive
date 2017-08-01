@@ -19,9 +19,9 @@
 		"company": "CS 1110",
 		"position": "Introduction to Computing Using Python",
 		"span":"Aug '14 - Dec '14",
-		"description":"Introductory computer science course for freshman, this was my first experience programming.",
+		"description":"Programming and problem solving using Python. Emphasizes principles of software development, style, and testing.",
 		"location":"CORNELL",
-		"skills":""
+		"skills":"Python"
 	},
 	{
 		"cat":"b",
@@ -31,7 +31,7 @@
 		"company": "CHEM 2090",
 		"position": "Chemistry for Engineers",
 		"span":"Aug '14 - Dec '14",
-		"description":"First year chemistry course, taken to fulfill engineering requirement for chemistry.",
+		"description":"Covers basic chemical concepts, such as reactivity and bonding of molecules, introductory quantum mechanics, and intermolecular forces in liquids and solids and gases.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -43,7 +43,7 @@
 		"company": "MATH 1920",
 		"position": "Multivariable Calculus for Engineers",
 		"span":"Aug '14 - Dec '14",
-		"description":"First sequence of math courses at school, built foundation for math used in later engineering courses.",
+		"description":"Introduction to multivariable calculus. Topics include partial derivatives, double and triple integrals, line and surface integrals, vector fields, Green's theorem, Stokes' theorem, and the divergence theorem.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -67,7 +67,7 @@
 		"company": "PHYS 2213",
 		"position": "Physics II: Electromagnetism",
 		"span":"Jan '15 - May '15",
-		"description":"This was my favorite physics class, it had very fun and interesting material.",
+		"description":"Second in a three semester introductory physics sequence.  Topics include electrostatics, behavior of matter in electric fields, DC circuits, magnetic fields, Faraday's law, AC circuits, and electromagnetic waves.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -79,7 +79,7 @@
 		"company": "NES 1996",
 		"position": "FWS: Early Islamic History in Modern Fiction",
 		"span":"Jan '15 - May '15",
-		"description":"This course focused on the origins of muslim literature and fulfilled a writing requirement for me.",
+		"description":"First-year seminar exploring stories of the first century of the history of Islam as told through modern historical fiction.",
 		"location":"CORNELL",
 		"skills":""
 	},
