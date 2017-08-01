@@ -223,7 +223,7 @@
 		"company": "CS 3300",
 		"position": "Data-Driven Web Applications",
 		"span":"Jan '16 - May '16",
-		"description":"Learned about data visualization and D3, opened my eyes to the world of data vis and design.",
+		"description":"This course will introduce students to working with data in the context of modern web applications. These include data representation with relational and non-relational databases, data mining to find patterns and make predictions, and graphical presentation for visualization.",
 		"location":"CORNELL",
 		"skills":"Javascript, D3"
 	},
@@ -235,7 +235,7 @@
 		"company": "ECE 2100",
 		"position": "Introduction to Circuits for Electrical and Computer Engineers",
 		"span":"Jan '16 - May '16",
-		"description":"Circuit analysis course, became more familar with hands on circuit work.",
+		"description":"First course in electrical circuits and electronics. Establishes the fundamental properties of circuits with application to modern electronics.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -247,7 +247,7 @@
 		"company": "ECE 2200",
 		"position": "Signals and Information",
 		"span":"Jan '16 - May '16",
-		"description":"Learned about signals and information systems, class exposed me to Matlab with hands on lab excersizes.",
+		"description":"Introduction to signal processing. Topics include frequency-based representations: Fourier analysis and synthesis; discrete time linear systems: input/output relationships, filtering, spectral response; analog-to-digital and digital-to-analog conversion; continuous time signals and linear time invariant systems: frequency response and continuous-time Fourier transform.",
 		"location":"CORNELL",
 		"skills":"Matlab"
 	},
@@ -259,7 +259,7 @@
 		"company": "ECE 3140",
 		"position": "Embedded Systems",
 		"span":"Jan '16 - May '16",
-		"description":"Embedded programming on a microcontroller. Topics included concurrency, scheduling, pointers, assembly code.",
+		"description":"An introduction to the design of embedded systems, with an emphasis on understanding the interaction between hardware, software, and the physical world. Topics covered include assembly language programming, interrupts, I/O, concurrency management, scheduling, resource management, and real-time constraints.",
 		"location":"CORNELL",
 		"skills":"C"
 	},
@@ -271,7 +271,7 @@
 		"company": "CS 4852",
 		"position": "Networks II: Market Design",
 		"span":"Jan '16 - May '16",
-		"description":"A second course about networks, focused on theory and went more in depth on different topics.",
+		"description":"Networks II builds on its prerequisite course and continues to examine how each of the computing, economic, sociological and natural worlds are connected and how the structure of these connections affects these worlds.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -295,7 +295,7 @@
 		"company": "ECE 3030",
 		"position": "Electromagnetic Fields and Waves",
 		"span":"Aug '16 - Dec '16",
-		"description":"Electrical engineering course on theory and applications of electromagnetic fields and waves.",
+		"description":"Covers static, quasi-static, and dynamic electromagnetic fields and waves.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -307,7 +307,7 @@
 		"company": "ECE 3400",
 		"position": "Electrical and Computer Engineering Practice and Design",
 		"span":"Aug '16 - Dec '16",
-		"description":"Hands on course focused on working in a professional team setting to accomplish a long term goal. Built an autonomous maze-mapping robot over the course of the semester.",
+		"description":"A brief history of electrical and computer engineering, the core subjects that define the field today, the ethical standards of its practice, and instruction in the elements of the process of designing electrical devices and systems. Built an autonomous maze-mapping robot over the course of the semester.",
 		"location":"CORNELL",
 		"skills":"Arduino"
 	},
@@ -319,7 +319,7 @@
 		"company": "CS 3110",
 		"position": "Data Structures and Functional Programming",
 		"span":"Aug '16 - Dec '16",
-		"description":"Course on functional programming taught in Ocaml. Changed how I think about software.",
+		"description":"Advanced programming course that emphasizes functional programming techniques and data structures. Programming topics include recursive and higher-order procedures, models of programming language evaluation and compilation, type systems, and polymorphism.",
 		"location":"CORNELL",
 		"skills":"Ocaml"
 	},
@@ -331,7 +331,7 @@
 		"company": "CS 2800",
 		"position": "Discrete Structures",
 		"span":"Aug '16 - Dec '16",
-		"description":"Discrete structures/mathematics course, taught proofs and abstract reasoning.",
+		"description":"Covers the mathematics that underlies most of computer science.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -364,10 +364,10 @@
 		"color":"#e67e22",
 		"beg": "25-Jan-17",
 		"end": "10-May-17",
-		"company": "BIOPL 2400",
+		"company": "PLBIO 2400",
 		"position": "Green World/Blue Planet",
 		"span":"Jan '17 - May '17",
-		"description":"Liberal studies course focusing on climate change, biodiversity, and biology on Earth.",
+		"description":"Focuses on helping individuals understand how scientific information relates to the issues they face as citizens, in management decision making, and in public policy. Focused on climate change, biodiversity, and biology on Earth.",
 		"location":"CORNELL",
 		"skills":""
 	},
