@@ -91,7 +91,7 @@
 		"company": "MATH 2930",
 		"position": "Differential Equations for Engineers",
 		"span":"Jan '15 - May '15",
-		"description":"A challenging math course that I have used extensively in my engineering courses.",
+		"description":"Introduction to ordinary and partial differential equations. Topics include: first-order equations, mathematical modeling, qualitative methods, numerical methods, second-order equations, and Fourier series.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -103,7 +103,7 @@
 		"company": "ENGRI 1270",
 		"position": "Introduction to Entrepreneurship and Enterprise Engineering",
 		"span":"Jan '15 - May '15",
-		"description":"Learned a lot about businesses and startups in this class, taught by one of my favorite professors.",
+		"description":"A solid introduction to the entrepreneurial process to students in engineering. The main objective is to identify and to begin to develop skills in the engineering work that occurs in high-growth, high-tech ventures.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -115,7 +115,7 @@
 		"company": "ECON 1110",
 		"position": "Introductory Microeconomics",
 		"span":"Jan '15 - May '15",
-		"description":"Course satisfied a liberal studies requirement for me.",
+		"description":"Explanation and evaluation of how the price system operates in determining what goods are produced, how goods are produced, who receives income, and how the price system is modified and influenced by private organizations and government policy.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -151,7 +151,7 @@
 		"company": "CS 2110",
 		"position": "Object Oriented Programming and Data Structures",
 		"span":"Aug '15 - Dec '15",
-		"description":"Course introduced and emphasized object oriented programming and data structures, the projects were really fun.",
+		"description":"Intermediate programming in a high-level language and introduction to computer science.",
 		"location":"CORNELL",
 		"skills":"Java"
 	},
@@ -163,7 +163,7 @@
 		"company": "ECE 2300",
 		"position": "Digital Logic and Computer Organization",
 		"span":"Aug '15 - Dec '15",
-		"description":"This was my first computer engineering class and had a lot of FPGA based projects.",
+		"description":"This course provides an introduction to the design and implementation of digital circuits and microprocessors. Topics include transistor network design, Boolean algebra, combinational circuits, sequential circuits, finite state machine design, processor pipelines, and memory hierarchy.",
 		"location":"CORNELL",
 		"skills":"Verilog"
 	},
@@ -175,7 +175,7 @@
 		"company": "PHYS 2214",
 		"position": "Physics III: Oscillations, Waves, and Quantum Physics",
 		"span":"Aug '15 - Dec '15",
-		"description":"Last required physics course, useful for future ECE courses.",
+		"description":"Covers physics of oscillations and wave phenomena, including driven oscillations and resonance, mechanical waves, sound waves, electromagnetic waves, reflection and transmission of waves, standing waves, beats, Doppler effect, polarization, interference, diffraction, transport of momentum and energy, wave properties of particles, and introduction to quantum physics.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -187,7 +187,7 @@
 		"company": "CS 2850",
 		"position": "Networks",
 		"span":"Aug '15 - Dec '15",
-		"description":"One of my favorite classes so far, helped development my interest in network theory.",
+		"description":"This interdisciplinary course examines network structures and how they matter in everyday life. The course examines how each of the computing, economic, sociological and natural worlds are connected and how the structure of these connections affects each of these worlds.",
 		"location":"CORNELL",
 		"skills":""
 	},
@@ -199,7 +199,7 @@
 		"company": "MATH 2940",
 		"position": "Linear Algebra for Engineers",
 		"span":"Aug '15 - Dec '15",
-		"description":"Last required math course, very useful for machine learning, signal processing and statistics.",
+		"description":"Linear algebra and its applications. Topics include matrices, determinants, vector spaces, eigenvalues and eigenvectors, orthogonality and inner product spaces; applications include brief introductions to difference equations, Markov chains, and systems of linear ordinary differential equations.",
 		"location":"CORNELL",
 		"skills":""
 	},
