@@ -163,7 +163,7 @@
 		"company": "ECE 2300",
 		"position": "Digital Logic and Computer Organization",
 		"span":"Aug '15 - Dec '15",
-		"description":"This course provides an introduction to the design and implementation of digital circuits and microprocessors. Topics include transistor network design, Boolean algebra, combinational circuits, sequential circuits, finite state machine design, processor pipelines, and memory hierarchy.",
+		"description":"This course provides an introduction to the design and implementation of digital circuits and microprocessors.",
 		"location":"CORNELL",
 		"skills":"Verilog"
 	},
@@ -259,7 +259,7 @@
 		"company": "ECE 3140",
 		"position": "Embedded Systems",
 		"span":"Jan '16 - May '16",
-		"description":"An introduction to the design of embedded systems, with an emphasis on understanding the interaction between hardware, software, and the physical world. Topics covered include assembly language programming, interrupts, I/O, concurrency management, scheduling, resource management, and real-time constraints.",
+		"description":"An introduction to design of embedded systems, emphasis on understanding the interaction between hardware, software, and physical world. Concurrency management, scheduling, resource management, and real-time constraints.",
 		"location":"CORNELL",
 		"skills":"C"
 	},
@@ -307,7 +307,7 @@
 		"company": "ECE 3400",
 		"position": "Electrical and Computer Engineering Practice and Design",
 		"span":"Aug '16 - Dec '16",
-		"description":"A brief history of electrical and computer engineering, the core subjects that define the field today, the ethical standards of its practice, and instruction in the elements of the process of designing electrical devices and systems. Built an autonomous maze-mapping robot over the course of the semester.",
+		"description":"A brief history of electrical and computer engineering, the core subjects that define the field today, the ethical standards of its practice, and instruction in the elements of the process of designing electrical devices and systems.",
 		"location":"CORNELL",
 		"skills":"Arduino"
 	},
@@ -319,7 +319,7 @@
 		"company": "CS 3110",
 		"position": "Data Structures and Functional Programming",
 		"span":"Aug '16 - Dec '16",
-		"description":"Advanced programming course that emphasizes functional programming techniques and data structures. Programming topics include recursive and higher-order procedures, models of programming language evaluation and compilation, type systems, and polymorphism.",
+		"description":"Advanced programming course that emphasizes functional programming techniques and data structures.",
 		"location":"CORNELL",
 		"skills":"Ocaml"
 	},
