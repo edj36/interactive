@@ -6,7 +6,7 @@ var detail = d3.select("#detail");
 var detailWidth = parseInt(detail.style("width"), 10);
 var detailHeight = parseInt(detail.style("height"), 10);
 
-var selected = 35;
+var selected = 46;
 
 var margin = {top: 25, right: 50, bottom: 10, left: 50};
 
@@ -85,7 +85,7 @@ svg.append("text")
 
 d3.json("timeline.json", function (data){
 
-	console.log(data);
+	// console.log(data);
 	data.forEach(function (d){
 		d.beg = parseDate(d.beg)
 		d.end = parseDate(d.end)
@@ -122,7 +122,7 @@ d3.json("timeline.json", function (data){
 	    .attr("x", function(d) { return x(d.beg); })
 	    .attr("width", function(d) { return x(d.end)-x(d.beg); })
 	    .attr("y", function(d) { return y(d.cat); })
-	    .attr("height", 7 )
+	    .attr("height", 8 )
 	    .attr("stroke", function(d, i) {
 	    	if (i==selected) {
 	    		return "#000000";
@@ -203,7 +203,7 @@ var svg2 = d3.select("#legend").append("svg")
     .append("g");
 
 var legendXScale = d3.scale.ordinal()
-	.domain(["CS","ECE","information science", "intro engineering", "liberal studies", "math","science","work"])
+	.domain(["CS","ECE","information science", "general engineering", "non technical", "math","science","work"])
 	.range([5,
 		(legWidth/8)+5,
 		((2*legWidth)/8)+5,
