@@ -509,7 +509,7 @@
 		"beg": "24-Jan-18",
 		"end": "9-May-18",
 		"company": "ECE 4271",
-		"position": "Evolutionary Processes. Evolutionary Algorithms, Evolutionary Games",
+		"position": "Evolutionary Processes, Evolutionary Algorithms, Evolutionary Games",
 		"span":"Jan '18 - May '18",
 		"description":"Course addresses a collection of topics relevant to the modeling, analysis, simulation, and optimization of large complex multi-agent systems. Course provides a standalone introduction to discrete-time Markov chains; covers the Metropolis algorithm and its generalizations; gives an introduction to the theory of genetic algorithms; and provides an introduction to evolutionary game theory, including the ESS concept, replicator dynamics, and dynamic probabilistic approaches.",
 		"location":"CORNELL",
@@ -561,6 +561,6 @@
 		"span":"Jun '18 - Present",
 		"description":"Software Engineer in Innovations",
 		"location":"NYC",
-		"skills":"C#"
+		"skills":"Python, C#, AWS"
 	}
 ]
